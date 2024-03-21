@@ -1,6 +1,7 @@
 :root{
-    --color-primario: rgb(51, 84, 76);
-    --color-secundario: rgb(115, 35, 53);
-    --color-ternario: rgb(232, 167, 137);
-    --color-cuarto: rgb(113, 61, 39);
+    --color-primario: rgb(81, 95, 92);
+    --color-secundario: rgb(216, 215, 215);
+    --color-ternario: rgb(68, 68, 68);
+    --color-cuarto: rgb(77, 64, 59);
+    --color-letra-boton: rgb(185, 160, 136);
 }

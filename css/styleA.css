@@ -31,16 +31,13 @@ body{
 .titles ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     font-size: 2.5vh;
 }
 .titles li a{
     text-decoration: none;
     color: var(--color-ternario);
-}
-.p1{
-    margin-top: 0%;
 }
 .p2{
     margin-left: 0;
@@ -55,14 +52,13 @@ body{
 }
 .p5 button{
     border-style: none;
-    background-color: var(--color-secundario);
+    background-color: var(--color-cuarto);
     font-size: 100%;
-    color: var(--color-ternario);
+    color: var(--color-letra-boton);
     width: 2vw;
     height: 4vh;
     border-radius: 9px;
 }
-
 .productos{
     background-color: var(--color-secundario);
     display: grid;
@@ -99,23 +95,16 @@ body{
     grid-template-rows: 70% 30%;
 
 }
+.ropa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
 .ropa img{
-    width: auto;
     height: 100%;
-    margin-left: 12%;
-
-}
-.ropa1 img{
     width: auto;
-    height: 100%;
-    margin-left: -2%;
-
-}
-.ropa2 img{
-    width: auto;
-    height: 100%;
-    margin-left: 18%;
-
 }
 .descrip{
     background: var(--color-primario);
@@ -136,6 +125,8 @@ body{
     margin-bottom: 10%;
     margin-top: 0%;
     background: var(--color-cuarto);
+    color: var(--color-letra-boton);
+    font-weight: 500;
     border-style: none;
     width: 4vw;
     height: 4vh;

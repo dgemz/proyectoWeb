@@ -63,8 +63,8 @@ body{
     background: var(--color-secundario);
 }
 .p5 button{
-    border-style: solid;
-    border-color: var(--color-cuarto);
+    border-style: none;
+    background-color: var(--color-secundario);
     font-size: 100%;
     color: var(--color-ternario);
     width: 2vw;
